@@ -6,10 +6,11 @@ This is my master's thesis project, where I endeavored to address a research gap
 ## Table of contents
 * [Problem Statement](#Problem-statement)
 * [Research Questions](#Research-questions)
-* [Dataset](#dataset)
-* [Method](#method)
-* [Implementation](#inplementation)
-* [Conclusion](#findings-and-conclusion)
+* [Dataset](#Dataset)
+* [Method](#Method)
+* [Implementation](#Implementation)
+* [Conclusion](#Findings-and-conclusion)
+* [Discussion](#Discussion)
 
 ## Problem statement
 Given the increasing prevalence of harmful algal bloom events (HABs) and their detrimental impact on coastal regions worldwide, the timely and accurate detection of these events has become of paramount importance. The advent of machine learning techniques has offered promising avenues for addressing this imperative need. However, few studies have addressed the issue of datasets with high sparsity in HABs prediction using machine learning techniques. The goal of this study is to determine whether the utilization of factual data can achieve comparable model performance in predicting HABs compared to imputed data using machine learning and deep learning algorithms, specifically when encountering datasets containing a large amount of missing values.
@@ -33,7 +34,7 @@ The flowchart shows steps from raw data to feature selection
 ![This flowchart shows steps from raw data to feature selection](./flowchart.png)
 
 After the EDA and data cleaning, a pipeline architecture was implemented for robust model development, including data preprocessing, hyperparameter tuning, and validation. The performance of different models was compared using evaluation metrics, and error analysis was also conducted. For example, the figure below is SVR Error Analysis. The first row of plots compares the predicted values to the actual values. It shows how well the model’s predictions align with the true values. The red dashed line represents perfect alignment between predicted and actual values. The second row of plots displays the distribution of residuals. The x-axis represents the residuals, which are the differences between the actual target values and the corresponding predicted values. The y-axis represents the density of the residuals. 
-![SVR_error](./SVR_error.png)
+![SVR_error](./SVR_Error.png)
 
 ## Implementation
 Project is created with:
