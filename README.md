@@ -51,7 +51,7 @@ Based on the table below, SVR with median imputation was selected for feature pe
 
 The chosen model SVR with median imputation achieved the highest R2 score of 0.859, RMSE score of 9.360, and MAE score of 5.737 after feature selection. The table below displays model perfomance after feature model_selection. ![Model selection](./feature_selection.png) 
 
-This study confirmed that the utilization of domain knowledge enhanced the efficiency of HABs prediction Further, models using factual data showed comparable performance to those using imputation techniques.
+This study confirmed that the utilization of domain knowledge enhanced the efficiency of HABs prediction. Further, models using factual data showed comparable performance to those using imputation techniques.
 What's more, seventeen important water quality parameters were identified for predicting HABs in New York Harbor, including fluorometers, pH, and dissolved oxygen (DO), where
 several novel predictors, such as fluorometers, nitrate/nitrite, and ammonium, emerged as promising variables for HABs prediction.
 
